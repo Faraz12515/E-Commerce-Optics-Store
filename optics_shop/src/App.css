@@ -1,0 +1,317 @@
+p {
+	font-weight: 500;
+}
+
+span {
+	color: red;
+	font-weight: 600;
+	/* text-decoration-line: underline; */
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: transparent;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	padding: 8px;
+	border: white;
+	padding-bottom: 7px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: rgb(253, 75, 75);
+	color: rgb(255, 255, 255);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: rgb(28, 28, 28);
+	color: white;
+}
+
+/*-----------Product Page-------------*/
+
+.product {
+	color: rgb(255, 101, 101);
+}
+
+.container {
+	margin-top: 100px;
+}
+#carouselExampleIndicators {
+	border: 8px solid rgb(255, 101, 101);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.newarrival {
+	background: green;
+	width: 50px;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.price {
+	color: rgb(255, 101, 101);
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+input {
+	border: 1px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: center;
+	width: 30px;
+}
+
+/*--------------Cart and Back Button------------------------*/
+
+.cart {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 18px;
+	width: 200px;
+}
+
+.cart:hover {
+	color: white;
+	font-weight: bolder;
+}
+
+.back {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 18px;
+	width: 200px;
+}
+
+.back:hover {
+	color: white;
+	font-weight: bolder;
+}
+/*-------------------------------------------*/
+
+.lable p {
+	color: rgb(255, 101, 101);
+	font-weight: bold;
+}
+
+input:hover {
+	border: 1px solid rgb(255, 101, 101);
+}
+
+.availability-brand p {
+	font-weight: 500;
+}
+
+.availability-brand b {
+	color: rgb(255, 101, 101);
+}
+
+.product-information b {
+	color: rgb(255, 101, 101);
+	font-weight: bold;
+}
+
+.product-information p {
+	font-weight: 500;
+}
+/*----------Product Page-----------*/
+
+/*-----------------Footer---------------------*/
+
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background-color: whitesmoke;
+	font-weight: 600;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid whitesmoke;
+}
+.footer p {
+	margin: 0;
+}
+
+.footer h3 {
+	border-bottom: 2px solid red;
+	max-width: fit-content;
+	color: #222;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+
+.footer h3:hover {
+	border-bottom-color: #222;
+	color: red;
+	transition: all 0.5s ease;
+}
+.footer ul {
+	font-size: 15px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7f8c8d;
+}
+.footer ul li a {
+	text-decoration: none;
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	text-decoration: none;
+	color: red;
+}
+.footer a:hover {
+	font-size: 15.2px;
+	border-bottom-color: #222;
+	color: #222;
+	transition: all 0.3s ease;
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.social li {
+	background: none repeat scroll 0 0 #b5b5b5;
+	border: 2px solid #b5b5b5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #edeff1;
+}
+.social li:hover {
+	border: 2px solid #222;
+	background: #222;
+}
+.social li a i {
+	font-size: 28px;
+	margin: 2px 2px 0px 2px;
+	color: whitesmoke !important;
+}
+.social-align {
+	margin-left: 0;
+}
+.footer-bottom {
+	background: #222;
+	border-top: 1px solid #dddddd;
+	color: whitesmoke;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;
+	float: right;
+	margin-top: -50px;
+	margin-right: 95px;
+}
+
+.payments i:hover {
+	font-size: 35px;
+	transition: all 1s ease;
+}
+
+.payments li {
+	padding: 3px;
+}
+
+/*-----------------End Footer---------------------*/
+
+/*-----------------Form---------------------*/
+.form {
+	float: right;
+}
+
+/*-----------------End Form---------------------*/
+
+.card {
+	box-shadow: 5px 5px 5px rgb(190, 190, 190);
+	transition: all 0.3s ease-in;
+}
+.card:hover {
+	box-shadow: 3px 3px 3px rgb(255, 69, 69);
+	transition: all 0.3s ease-in;
+}
+
+/*----------------Products-------------------*/
+.products {
+	margin-top: 20px;
+}

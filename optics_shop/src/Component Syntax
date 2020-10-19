@@ -1,0 +1,21 @@
+/*-------------Component----------------*/
+
+
+import React, { Component } from 'react';
+
+class Contact_Lenses extends Component {
+	render() {
+		return (
+			<div>
+				<div style={{ overflowX: 'hidden' }}>
+                    
+                </div>
+			</div>
+		);
+	}
+}
+
+export default Contact_Lenses;
+
+
+
